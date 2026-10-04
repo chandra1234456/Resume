@@ -10,13 +10,14 @@ A single-page, static resume built with plain HTML and CSS (no build step or dep
 
 - Responsive layout for desktop and mobile
 - Automatic light/dark mode
-- Print-friendly styling: use the **Download / Print PDF** button to save as PDF
+- "Download PDF" button in the top-right corner downloads the resume PDF
 
 ## Structure
 
 ```
 .
 ├── index.html   # the entire site (content + styles)
+├── Balachandra_Dasari_Resume_AndroidDeveloper.pdf   # downloadable resume
 └── README.md
 ```
 

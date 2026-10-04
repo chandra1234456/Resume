@@ -36,7 +36,8 @@ li{margin:5px 0}
 .proj:first-of-type{border-top:0;padding-top:0}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
 .tags span{background:var(--chip);color:var(--accent-ink);border-radius:999px;padding:2px 10px;font-size:.8rem}
-.btn{display:inline-block;margin-top:16px;padding:8px 16px;border-radius:8px;background:var(--accent);color:#06210f;font-weight:600;text-decoration:none;font-size:.9rem}
+.btn{position:fixed;top:16px;right:16px;z-index:10;padding:9px 16px;border-radius:999px;background:var(--accent);color:#06210f;font-weight:600;text-decoration:none;font-size:.9rem;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.btn:hover{filter:brightness(1.08)}
 footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:32px}
 @media (max-width:600px){
   h1{font-size:1.7rem} header{padding-top:36px}
@@ -49,6 +50,7 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:32px}
 </style>
 </head>
 <body>
+<a class="btn" href="Balachandra_Dasari_Resume_AndroidDeveloper.pdf" download="Balachandra_Dasari_Resume_AndroidDeveloper.pdf">⬇ Download PDF</a>
 <div class="wrap">
 
 <header>
@@ -60,7 +62,7 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:32px}
     <a href="https://linkedin.com/in/balachandra-dasari" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://github.com/chandra1234456" target="_blank" rel="noopener">GitHub</a>
   </div>
-  <a class="btn" href="#" onclick="window.print();return false">Download / Print PDF</a>
+  
 </header>
 
 <section>
