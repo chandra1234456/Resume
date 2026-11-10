@@ -17,7 +17,7 @@ A single-page, static resume built with plain HTML and CSS (no build step or dep
 ```
 .
 ├── index.html   # the entire site (content + styles)
-├── Balachandra_Dasari_Resume_AndroidDeveloper.pdf   # downloadable resume
+├── Balachandra_Dasari_Resume.pdf   # downloadable resume
 └── README.md
 ```
 
